@@ -6,7 +6,7 @@ def loadIdris(localIdrisInstallation=None):
   loadScala()
   nixpkgs_git_repository(
       name = "nixpkgs",
-      revision = "da53c1248ba3c56d0ee67d8ab1d0849f9453bbb5", # Any tag or commit hash
+      revision = "18f0a9ab1c347e1364728957e6e93df68e391438", # Any tag or commit hash
       sha256 = "" # optional sha to verify package integrity!
   )
   nixpkgs_package(
